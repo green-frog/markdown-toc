@@ -189,7 +189,7 @@ trait TOCTrait
             $head[] = [
                 [
                     'link',
-                    'url' => $url.($i === 0 ? '' : '#'.$this->formatAnchor($item['content'])),
+                    'url' => $url.'#'.$this->formatAnchor($item['content']),
                     'text' => $item['content'],
                 ],
             ];
